@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='http://dc.dataformat.com/local/eap_ptjrs_normal.xsl'?><?oxygen RNGSchema="http://rotunda.upress.virginia.edu/Schemas/FE/FoundingEra.rng"
+      type="xml"?><?xml-model href="../schemas/rotunda/TSJN-RET-checks.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:FGEA="http://rotunda.upress.virginia.edu/FGEA" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:pm="http://demo.dataformat.com/local/pm" xmlns:ptjrs="http://ptjrs.dataformat.com/ptjrs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="TSJN-02-01" n="TSJN-02-01">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Papers of Thomas Jefferson, Second Series, Volume 1</title>
+        <title type="FGEA-publication">The Papers of Thomas Jefferson</title>
+        <title type="FGEA-series">Second Series</title>
+        <title type="FGEA-volume">Jefferson’s Memorandum Books, Volume 1</title>
+        <author>Jefferson, Thomas</author>
+        <respStmt>
+          <name>David Sewell, ROTUNDA Editorial and Technical Manager</name>
+          <resp>Corrector</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p/>
+      </editionStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://rotunda.upress.virginia.edu/founders/XInclude/tagsDecl.xml"/>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage type="FM_title">
+        <FGEA:mapData id="TSJN-02-01-01-0001">
+          <FGEA:Title>[Title Page]</FGEA:Title>
+          <FGEA:pageRange from="TSJN-02-01-01-pb-0003" to="TSJN-02-01-01-pb-0003"/>
+        </FGEA:mapData>
+        <docTitle>
+          <titlePart rendition="#center #all-caps" type="title-line1">The Papers of Thomas Jefferson</titlePart>
+          <titlePart rendition="#center" type="title-line3"><hi rendition="#italic">SECOND SERIES</hi></titlePart>
+          <space dim="vertical" quantity="2" unit="em"/>
+          <figure rendition="#hr" rend="width:100px;margin-right:auto;margin-left:auto;"/>
+          <space dim="vertical" quantity="2" unit="em"/>
+          <titlePart rendition="#center" type="title-line2">Jefferson’s</titlePart>
+          <titlePart rendition="#center" type="title-line2">Memorandum Books</titlePart>
+          <space dim="vertical" quantity="2" unit="em"/>
+          <titlePart rendition="#center" type="title-line1"><hi rendition="#italic">Accounts, with Legal Records</hi></titlePart>
+          <titlePart rendition="#center" type="title-line1"><hi rendition="#italic">and Miscellany,</hi></titlePart>
+          <titlePart rendition="#center" type="title-line1"><hi rendition="#italic">1767–1826</hi></titlePart>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <titlePart rendition="#center #all-caps" type="ht-line3">—volume I —</titlePart>
+        </docTitle>
+        <space dim="vertical" quantity="1" unit="em"/>
+        <docAuthor rendition="#center #all-caps" n="title-editor">James A. Bear, Jr.</docAuthor>
+        <docAuthor n="title-editors" rendition="#center"><hi rendition="#all-small-caps">and</hi></docAuthor>
+        <docAuthor rendition="#center #all-caps" n="title-editor">Lucia C. Stanton</docAuthor>
+        <docAuthor n="title-editors" rendition="#center"><hi rendition="#all-small-caps">editors</hi></docAuthor>
+        <space dim="vertical" quantity="2" unit="em"/>
+        <figure rendition="#hr" rend="width:100px;margin-right:auto;margin-left:auto;"/>
+        <space dim="vertical" quantity="2" unit="em"/>
+        <docImprint>
+                        <publisher n="title-imprint" rendition="#center #all-caps">Princeton University Press</publisher><pubPlace n="title-imprint-first" rendition="#center #all-caps">Princeton, New Jersey</pubPlace></docImprint>
+      </titlePage>
+      <div1 type="copyright">
+        <FGEA:mapData id="TSJN-02-01-01-0002">
+          <FGEA:Title>[Copyright]</FGEA:Title>
+          <FGEA:pageRange from="TSJN-02-01-01-pb-0004" to="TSJN-02-01-01-pb-0004"/>
+        </FGEA:mapData>
+        <div2 type="docbody">
+          <p rendition="#center"> Copyright © 1997 by Princeton University Press</p>
+          <p rendition="#center"> Published by Princeton University Press, 41 William Street,</p>
+          <p rendition="#center"> Princeton, New Jersey</p>
+          <p rendition="#center"> In the United Kingdom: Princeton University Press,</p>
+          <p rendition="#center">Chichester, West Sussex</p>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <p rendition="#center"> <hi rendition="#italic">All Rights Reserved</hi></p>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <p rendition="#center"> <hi rendition="#italic">Library of Congress Cataloging-in-Publication Data</hi></p>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <p rendition="#center">Jefferson, Thomas, 1743–1826.</p>
+          <p rendition="#center">[Memorandum books]</p>
+          <p rendition="#center">Jefferson’s memorandum books: accounts, with legal records</p>
+          <p rendition="#center">and miscellany, 1767-1826 / James A. Bear, Jr. and</p>
+          <p rendition="#center">Lucia C. Stanton, editors.</p>
+          <p rendition="#center">p.<space dim="horizontal" quantity="1" unit="em"/>cm.—(The Papers of Thomas Jefferson. Second series)</p>
+          <p rendition="#center">Includes index.</p>
+          <p rendition="#center">ISBN 0-691-04719-7</p>
+          <p rendition="#center">1. Jefferson, Thomas, 1743-1826—Finance, Personal.</p>
+          <p rendition="#center">I. Bear, James Adam. II. Stanton, Lucia C. III. Title.</p>
+          <p rendition="#center">IV. Series: Jefferson, Thomas, 1743-1826. Selections. 1983.</p>
+          <p rendition="#center">E302.J442<space dim="horizontal" quantity="1" unit="em"/>1992</p>
+          <p rendition="#center">973.4′6′092—dc20<space dim="horizontal" quantity="2" unit="em"/>92-11458</p>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <p rendition="#center">This book has been composed in Linotron Monticello</p>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <p rendition="#center">Princeton University Press books are printed on</p>
+          <p rendition="#center"> acid-free paper and meet the guidelines for permanence</p>
+          <p rendition="#center">and durability of the Committee on Production Guidelines</p>
+          <p rendition="#center">for Book Longevity of the Council</p>
+          <p rendition="#center"> on Library Resources</p>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <p rendition="#center">Printed in the United States of America</p>
+          <space dim="vertical" quantity="1" unit="em"/>
+        </div2>
+      </div1>
+      <div1 type="dedication">
+        <FGEA:mapData id="TSJN-02-01-01-0003">
+          <FGEA:Title>[Dedication]</FGEA:Title>
+          <FGEA:pageRange from="TSJN-02-01-01-pb-0005" to="TSJN-02-01-01-pb-0005"/>
+        </FGEA:mapData>
+        <p rendition="#center"><hi rendition="#all-small-caps">dedicated to the memory of</hi></p>
+        <p n="dedication-name" rendition="#center #all-caps">Adolph S. Ochs</p>
+        <p rendition="#center"><hi rendition="#all-small-caps">publisher of the new york times</hi></p>
+        <p rendition="#center"><hi rendition="#all-small-caps"> 1896–1935</hi></p>
+        <p rendition="#center"><hi rendition="#all-small-caps">who by the example of a responsible</hi></p>
+        <p rendition="#center"><hi rendition="#all-small-caps">press enlarged and fortified</hi></p>
+        <p rendition="#center"> <hi rendition="#all-small-caps">the jeffersonian concept</hi></p>
+        <p rendition="#center"><hi rendition="#all-small-caps">of a free press</hi></p>
+      </div1>
+      <div1 type="advisory-committee">
+        <FGEA:mapData id="TSJN-02-01-01-0004">
+          <FGEA:Title>[Advisory Committee]</FGEA:Title>
+          <FGEA:pageRange from="TSJN-02-01-01-pb-0006" to="TSJN-02-01-01-pb-0006"/>
+        </FGEA:mapData>
+        <head rendition="#center #all-caps">Advisory Committee</head>
+        <div2 type="docbody">
+          <space dim="vertical" quantity="1" unit="em"/>
+          <table rendition="#center">
+            <row>
+              <cell rows="1" cols="1" rend="text-align:center;vertical-align:baseline;" rendition="#all-caps">Francis L. Berkeley, Jr.</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1" rend="text-align:center;vertical-align:baseline;" rendition="#all-caps">William G. Bowen</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1" rend="text-align:center;vertical-align:baseline;" rendition="#all-caps">Henry Steele Commager</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1" rend="text-align:center;vertical-align:baseline;" rendition="#all-caps">Robert F. Goheen</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1" rend="text-align:center;vertical-align:baseline;" rendition="#all-caps">Dumas Malone</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1" rend="text-align:center;vertical-align:baseline;" rendition="#all-caps">Datus C. Smith, Jr.</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1" rend="text-align:center;vertical-align:baseline;" rendition="#all-caps">Iphigene Ochs Sulzberger</cell>
+            </row>
+            <row>
+              <cell cols="1" rend="text-align:center;vertical-align:baseline;" rendition="#all-caps">Lucias Wilmerding, Jr.</cell>
+            </row>
+          </table>
+        </div2>
+      </div1>
+      <div1 type="foreword">
+        <FGEA:mapData id="TSJN-02-01-01-0005">
+          <FGEA:Title>Foreword</FGEA:Title>
+          <FGEA:pageRange from="TSJN-02-01-01-pb-0011" to="TSJN-02-01-01-pb-0012"/>
+        </FGEA:mapData>
+        <head rendition="#center #all-caps">Foreword</head>
+        <div2 type="docbody">
+          <p rendition="#left"><hi rendition="#all-small-caps">This is</hi> the fourth title to appear as part of the important Second Series of Jefferson’s papers. Among these topical volumes, this one is the most broad in its coverage inasmuch as it offers a detailed look at the happenings of Jefferson’s life day by day. The entries recorded in the memorandum books provide information that often illuminates aspects of Jefferson’s correspondence and other writings, and publication of these records has been an aim of the Editors since this edition commenced in 1950. More than a decade passed, however, before Julian Boyd felt he had sufficient time to devote to the Second Series, and it was not until 1967 that he broached the idea with the person regarded as the obvious choice to edit the memorandum books. James A. Bear, Jr., possessed unique qualifications for the task. He was extremely well informed in all areas of the specialized knowledge required—local place names, personal and family relationships, topography—and he readily agreed to assume the job. Actual editing began in 1970. After Mr. Bear became Resident Director and Curator of Monticello in 1971, he relied increasingly on the able assistance of Lucia C. Stanton, whose contributions to the edited manuscript became so great that she was named co-editor. Mr. Boyd strongly desired to see the memorandum books appear before he retired, for he recognized their importance to American history and to the editing of every other part of the Jefferson documentation. “It enables us to pinpoint Jefferson’s whereabouts day by day for more than half a century,” he wrote. “It tells us much about his intellectual curiosity, his habits, and his character, besides furnishing valuable information about the prices and the availability of commodities.” In part, that view of the record books led Boyd to agree with Bear that it would be undesirable and even misleading to try to separate the parts of the early miscellany of legal, architectural, and topographical notes from the systematic form that the records assume after the first two or three years. All are printed together herein, thus permitting the reader to see how the fumbling beginnings soon evolved into a disciplined and orderly record of dates, places, prices, and objects of personal expenditures.</p>
+          <p rendition="#indent">Josephine Tey wrote that “real history is written in forms not meant as history. In Wardrobe accounts, in Privy Purse expenses, in personal letters, in estate books. If someone, say, insists that Lady Whoosit never had a child, and you find in the account book the entry: ‘For the son born to my lady on Michaelmas eve: five yards of blue ribbon, fourpence halfpenny’ it’s a reasonably fair deduction that my lady had a son on Michaelmas eve” (Tey, <title><hi rendition="#italic">The Daughter of Time</hi></title> [New York, 1953], p. 101). <pb xml:id="TSJN-02-01-01-pb-0012" n="xii" facs="TSJN-02-01-01-pb-0012.jpg" FGEA:permission="yes"/>Jefferson himself regarded his daily accounts as fundamentally important, and he had occasion to refer to them many times throughout his life. But that does not explain why he went to great lengths to record such things as the temperature several times a day or, as his biographer Henry S. Randall noted, the “average earliest and latest appearance of <hi rendition="#italic">thirty-seven</hi> varieties of vegetables in the Washington market during the whole eight years of his presidency.” Commenting on a detailed table containing this information, Randall remarks that to think of such a leader recording “the first and last appearances of radishes, squashes, cabbages, and cauliflowers in the market suggests a curious train of reflections.” Some might consider such systematic attention to minutiae an obsession and wasteful of Jefferson’s time. But Randall reminds us that in Samuel Johnson’s estimation, “The truly strong and sound mind is the mind that can embrace equally great things and small.” This quality of Jefferson’s mind, his attention to things great and small, has left us a unique record of “real history.” Nowhere else can one find in so compact a space such overwhelming evidence of Jefferson’s insatiable curiosity—what he described as his “canine appetite” for learning of all kinds—or more abundant evidence of his devotion to a systematic way of living. These memorandum books, as he called them, will hereafter serve as an essential reference for all persons interested in Thomas Jefferson or the age in which he lived. It is gratifying to bring them into print after so long a time.</p>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <p rendition="#right">Charles T. Cullen</p>
+          <p rendition="#left"><hi rendition="#italic">January 14, 1986</hi></p>
+        </div2>
+      </div1>
+      <div1 type="acknowledgements">
+        <FGEA:mapData id="TSJN-02-01-01-0006">
+          <FGEA:Title>Acknowledgments</FGEA:Title>
+          <FGEA:pageRange from="TSJN-02-01-01-pb-0012" to="TSJN-02-01-01-pb-0015"/>
+        </FGEA:mapData>
+        <head rendition="#center #all-caps">Acknowledgments</head>
+        <div2 type="docbody">
+          <p rendition="#left"><hi rendition="#all-small-caps">Over a</hi> period of fifty-nine years Thomas Jefferson made several thousand entries in his Memorandum Books that chronicle his life off and on the public scene in geographical areas that extended from Boston to Poplar Forest, Bedford County, Virginia, in America to Great Britain, France, Italy, Holland, and Germany abroad. No American of his time traveled more widely, saw as much, and kept such minute accounts as are represented here.</p>
+          <p rendition="#indent">Editing these records has been a monumental undertaking that has continued far longer than anticipated when I began the project in the late 1950s. Interruptions came regularly as administrative demands at Monticello claimed inordinate amounts of time, and it was not until the arrival of Lucia C. Stanton as a full-time Research Associate and co-editor that this long-term project was brought to a close. Even so, understanding and annotating entries that varied from waterwheel efficiency to international finance called for more expertise than we possessed and forced us to turn for assistance to a myriad of scholars and experts as well as to the resources of scholarly institutions. Without this assistance, always freely given, this project might still be under way.</p>
+          <p rendition="#indent">Limitations of space prohibit acknowledging each and every aid received from individuals and/or institutional contributors; however, we would be remiss if we failed to note especially the Trustees of the Thomas Jefferson Memorial Foundation of Charlottesville, Virginia, the owner and operator of Monticello. The Foundation’s facilities and resources contributed in every way, but especially by allowing the editors, its Resident Director and Research Associate, to blend this work with their many other duties. In addition, logistic support ranging from office supplies to office space was supplied. The Trustees’ support never wavered.</p>
+          <p rendition="#indent">Among those institutions requiring special notice are the University of Virginia Library and the Colonial Williamsburg Research Department. The staffs of the Manuscripts, Rare Book, and Reference Divisions of the Alderman Library at the University of Virginia, and particularly Edmund Berkeley, Jr., William H. Runge, and Anne Freudenberg, never failed to answer a call. Special notice is due the late John Cook Wyllie, longtime Curator of Rare Books and late Librarian, whose directions and suggestions allowed us to make a solid beginning. At Colonial Williamsburg, Edward M. Riley, then Director of its Research Department, his associates Jane Carson and Harold B. Gill, and John M. Hemphill II freely shared their knowledge of life in Williamsburg when Jefferson was there as well as making available their indispensable “People File.”</p>
+          <p rendition="#indent">Other institutions that rendered significant services are the American <pb xml:id="TSJN-02-01-01-pb-0014" n="xiv" facs="TSJN-02-01-01-pb-0014.jpg" FGEA:permission="yes"/>Philosophical Society; Bennington (Vt.) Museum; Bucks County Historical Society; Germantown Historical Society; Hall of Records, Annapolis, Md.; Historical Society of Delaware; Historical Society of Pennsylvania; Huntington Library; Jones Memorial Library, Lynchburg, Va.; Library of Congress; Library of the College of William and Mary; Library of the United States Military Academy; Massachusetts Historical Society; Missouri Historical Society; Museum of Early Southern Decorative Arts; Museum and Library of Maryland History; National Archives and Records Service; New-York Historical Society; New York Public Library; New York State Historical Association; Portsmouth (N.H.) Athenaeum; Virginia Historical Society; Virginia State Archives; Virginia State Library; and the Jefferson Office, Princeton, N.J.</p>
+          <p rendition="#indent">For ferreting out Jefferson’s landholdings and inheritance and identifying the public houses where he stopped, the roads he traveled, and the ferry sites he crossed, the clerks of Virginia counties of Albemarle, Amherst, Bedford, Botetourt, Buckingham, Campbell, Chesterfield, Culpeper, Cumberland, Fairfax, Fauquier, Fluvanna, Goochland, Henrico, King William, Loudoun, Louisa, Orange, Powhatan, Rockbridge, and Spotsylvania were most helpful.</p>
+          <p rendition="#indent">Among the scholars who contributed to special areas of our research were Neil N. Alford, Jr., E. Parker Brown, and Frank L. Dewey, for Jefferson’s practice and pursuit of law in the eighteenth century; Silvio A. Bedini, Keeper of Rare Books at the Smithsonian Institution, for science and technology; Professors James Constantine, P. David Kovacs, and Arthur F. Stocker of the University of Virginia for translating Jefferson’s Latin and Greek phrases; William E. Beiswanger, Resident Architect at Monticello, and Frederick D. Nichols, professor of architecture at the University of Virginia, for architecture; Charles L. Granquist, Jr., formerly Assistant Director of Monticello, for fine arts; Douglas L. Wilson, professor of English at Knox College, for Jefferson’s library; Susan Klaffky, formerly a member of our staff, for slavery at Monticello; Rev. George J. Cleaveland, Registrar of the Diocese of Virginia, for the established church; Howard H. Newlon, Jr. and Nathaniel Mason Pawlett, of the Virginia Highway and Transportation Research Council, for eighteenth-century Virginia roads and byways; the late Howard C. Rice, Jr., for Jefferson in France; Sister Margherita Marchione, Professor of Romance Languages, Fairleigh Dickinson University, for Philip Mazzei and his Italian workmen; Drs. Gordon W. Jones, Wilhelm Moll, and Samuel X. Radbill, for Jefferson’s health and eighteenth-century medicine; James C. Bradford and Michael J. Paul, Research Associates at Monticello, for general research; and Ruth Lester and John Jefferson Looney of the Jefferson Papers staff for a little bit of everything.</p>
+          <pb xml:id="TSJN-02-01-01-pb-0015" n="xv" facs="TSJN-02-01-01-pb-0015.jpg" FGEA:permission="yes"/>
+          <p rendition="#indent">Also of great assistance were William W. Abbot, Elizabeth F. Abel, Susan Agee, Whitfield J. Bell, Jr., Charles G. Bennett, Blaise Bisaillon, Nancy Boles, Frances D. Broderick, Stuart E. Brown, Paul Buchanan, Helen F. Bullwinkel, Alfred L. Bush, George Byrn, Herbert Cahoon, Marie T. Capps, John D. Carr, Barbara M. Carroll, Randolph W. Church, Howson W. Cole, Rebecca B. Colesor, Constance J. Cooper, Suzanne Corlette, Claudine La Haye Cowen, Walker Cowen, Kathryn L. Coyle, Helen C. Cripe, Anthony M. Cucchiara, William Darden, Collins Denny III, Garry F. Douglas, Violet Dunn, Dean Fausett, Adina Feldstern, Dale Fields, Karen E. Freeman, Susan Lee Foard, Roger W. Fromm, William H. Gaines, Jr., Robert R. Gamble, Mrs. David L. Gillispie, Elizabeth Glover, Frederick R. Goff, Leonard Gold, Roy E. Goodman, Kathleen B. Green, James Gregory, Arnold T. Grover, Virginius C. Hall, Jr., Thompson R. Harlow, C. M. Harris, Sidney Hart, Atcheson L. Hench, Jr., J. T. Hendricks, James T. Heslin, Robert H. Hill, Mrs. James F. Hilselberger, Sylvia Hilton, George E. Holt, Jr., Graham Hood, Edward G. Howard, Bryden B. Hyde, Jr., John M. Jennings, David J. Jeremy, Nathan M. Kaganoff, William K. Kaiser, Carolyn Kappes, Robert H. Kean, Margaret B. Klapthor, Mildred B. Lanier, Jean C. Lauer, Denis J. Lesieur, Peyton G. Lewis, Ralph F. Martz, Thomas A. Mason, Boynton Merrill, Jr., C. Venable Minor, Mrs. William Mitchell, Mrs. Robert Miyagawa, Anne M. Montgomery, Mrs. John T. Nichols, Mrs. Arthur R. Norton, Charles E. Peterson, Charles W. Porter III, Margaret B. Price, William M. E. Rachal, DuVal Radford, Stephen T. Riley, Joseph C. Robert, Jean B. Russo, Robert A. Rutland, Todd A. Savitt, Fran Schell, Mary R. Scott, George Green Shackelford, Mrs. Virginius R. Shackelford, Frank Shuffleton, Paul G. Sifton, Martha Slotten, Russell Smith, Rev. Melvin L. Steadman, Rabbi Malcolm H. Stern, Christiana Stevens, Mrs. Michael E. Sweeney, Kenneth D. Swope, Randall B. Tenor, Marion G. Terry, John C. Van Horne, Mrs. Harry R. Van Liew, George Wagoner, Nicholas B. Wainwright, Peter Walne, Ross Watson, Elie Weeks, Peter Welsh, Mrs. Louis L. Wenderburg, Mrs. J.M.H. Willis, Jr., Waverly K. Winfree, Edmund J. Winslow, Edwin Wolff II, Roland H. Woodward, and Malcolm E. Wright. Elizabeth Braswell provided valued services at the telephone, on the typewriter, and elsewhere.</p>
+          <p rendition="#indent">We deeply regret that this project was not completed during the editorship of the late Julian P. Boyd, who entrusted this important charge to us. However, we are gratified that Charles T. Cullen as editor of the Papers has not altered the editorial policy or the happy rapport that has existed with the Jefferson Office at Princeton since its beginning.</p>
+          <table rendition="#right" rend="margin-left:auto;margin-right:0;">
+            <row>
+              <cell rend="text-align:left;vertical-align:baseline;">James A. Bear, Jr.</cell>
+            </row>
+            <row>
+              <cell rend="text-align:left;vertical-align:baseline;">Lucia C. Stanton</cell>
+            </row>
+          </table>
+        </div2>
+      </div1>
+      <div1 type="foreword">
+        <FGEA:mapData id="TSJN-02-01-01-0007">
+          <FGEA:Title>Foreword</FGEA:Title>
+          <FGEA:pageRange from="TSJN-02-01-01-pb-0015" to="TSJN-02-01-01-pb-0021"/>
+        </FGEA:mapData>
+        <head rendition="#center #all-caps">Introduction</head>
+        <div2 type="docbody">
+          <p rendition="#left"><hi rendition="#all-small-caps">Edmund Bacon</hi>, Jefferson’s overseer at Monticello for sixteen years, reported while reminiscing about his former employer that “Mr. Jefferson was very particular in the transaction of all his business. He kept an account of everything. Nothing was too small for him to keep an account of.”<ptr target="TSJN-02-01-FMfn-01" xml:id="ptr_TSJN-02-01-FMfn-01" type="fn" n="1"/> When Bacon first entered his service in 1806, Jefferson’s habits of careful recordkeeping had long been established. Just how long will probably never be known because of the loss of most of his earliest papers,<ptr target="TSJN-02-01-FMfn-02" xml:id="ptr_TSJN-02-01-FMfn-02" type="fn" n="2"/> but the Memorandum Books<ptr target="TSJN-02-01-FMfn-03" xml:id="ptr_TSJN-02-01-FMfn-03" type="fn" n="3"/> published here—which begin when Jefferson was twenty-four—probably mark his first effort at truly comprehensive financial recordkeeping.</p>
+          <p rendition="#indent">The format he adopted for these accounts in 1767 remained virtually unchanged for almost sixty years. Each financial transaction, from pennies given in charity to thousands of dollars transferred in a land sale, was concisely described in one of a series of bound notebooks. Until 1775 these notebooks—which throughout the 1770s were usually printed almanacs with interleaved blank pages—served a dual purpose: Jefferson entered his financial accounts from one end and the memoranda associated with his law practice from the other. After his legal career ended in 1775, the mainly financial entries in the Memorandum Books continued alone, in perfect chronological order and without a single gap, occasionally augmented by weather records, wine lists, or other miscellaneous material.</p>
+          <p rendition="#indent">During the early period, when they were used for legal as well as financial memoranda, the notebooks were small (7 by 4 inches or less) and portable; Jefferson carried them about with him in his pocket and made his daily entries directly therein. In later years, when long legal entries were no longer necessary, the size of the notebooks increased—to a maximum of 8 by 5 inches for the last one. In this period Jefferson left his current Memorandum Book at home, penciled daily expenditures and other jottings into one of his tiny books of ivory leaves, and copied the notations into the Memorandum Book once every week or so.</p>
+          <p rendition="#indent">The keystone to the financial edifice formed by this annual accretion of records was Jefferson’s system of indexing his accounts. He made his first index of persons in 1771 and thereafter, either annually or every few years, compiled the painstaking list of names involved in every single transaction that affected his own finances. The addition of an index <pb xml:id="TSJN-02-01-01-pb-0018" n="xviii" facs="TSJN-02-01-01-pb-0018.jpg" FGEA:permission="yes"/>made Jefferson’s faith in his method of recordkeeping complete. In 1788 he penned his credo: “My Memorandum books . . . are small books which I used to carry in my pocket. . . . There is an alphabetical index of names to every one, so that all the entries respecting any one person may be found in a moment in them. They were made with such scrupulous fidelity that I shall not be afraid to justify them on the bed of death, and so exact that in the course of 15 years which they comprehend, I never discovered that I had made but one omission of a paiment. . . . The silence of my memorandum books as to a money paiment or receipt by me may be relied on as a negative proof of that paiment or entry.”<ptr target="TSJN-02-01-FMfn-04" xml:id="ptr_TSJN-02-01-FMfn-04" type="fn" n="4"/></p>
+          <p rendition="#indent">The zeal with which Jefferson made daily records was not, however, matched by attention to his financial condition on a larger scale. His Ledger Book, in which receipts and disbursements were tabulated and balanced in double entry form, begins simultaneously with the Memorandum Books but ceases in the summer of 1770. No successor to it, nor even reference to one, has ever been found, and one can only suspect that after 1770 Jefferson kept no such larger record for reconciling his accounts.<ptr target="TSJN-02-01-FMfn-05" xml:id="ptr_TSJN-02-01-FMfn-05" type="fn" n="5"/> Over the next fifty-six years he made only occasional attempts to gain a clear picture of his financial state by combing back through the Memorandum Book entries, as in the charts of annual expenses drawn up in 1785, 1802, and 1803<ptr target="TSJN-02-01-FMfn-06" xml:id="ptr_TSJN-02-01-FMfn-06" type="fn" n="6"/> and in a few additional analyses of shorter periods. More prevalent are statements that reveal Jefferson’s profound ignorance of his own financial condition. In 1800, six years after he had begun lending himself the quarterly interest on William Short’s investments under his control, he confessed his lack of method in a letter to Short: “I now inclose you a statement of my own account with you. The result of this has astonished me beyond any thing which has ever happened to me in my life, for tho’ I kept such exact entries in my daily memorandum book as would enable me, or anybody else, to state the account accurately in a day, yet I had never collected the items, or formed them into an account, till within these few days.”<ptr target="TSJN-02-01-FMfn-07" xml:id="ptr_TSJN-02-01-FMfn-07" type="fn" n="7"/> The result was a hitherto unsuspected debt of over $10,000. Another $10,000 oversight occurred in 1809, when Jefferson was settling his affairs in Washington before his final retirement to Monticello. On discovering the extent to which he had been living beyond his presidential income, he wrote to his son-in-law that by “trusting to estimates made by my head and confident that I had the thing quite within <pb xml:id="TSJN-02-01-01-pb-0019" n="xix" facs="TSJN-02-01-01-pb-0019.jpg" FGEA:permission="yes"/>my power, I omitted till too late the taking of an accurate view of my calls for money.”<ptr target="TSJN-02-01-FMfn-08" xml:id="ptr_TSJN-02-01-FMfn-08" type="fn" n="8"/></p>
+          <p rendition="#indent">The daily ritual of recording pecuniary events gave Jefferson an artificial sense of order in his financial world. For a man who considered “social harmony as the first of human felicities,”<ptr target="TSJN-02-01-FMfn-09" xml:id="ptr_TSJN-02-01-FMfn-09" type="fn" n="9"/> the benefits of keeping such meticulous daily accounts seem to have been as much personal as financial. The precision of his method, by preventing the misunderstandings generated by imperfectly recorded financial transactions, smoothed the course of personal relations. Always thoughtful of others, Jefferson was also evidently considering those, whether stewards or family members, who might have to resort to this record in the event of his absence or even death.<ptr target="TSJN-02-01-FMfn-10" xml:id="ptr_TSJN-02-01-FMfn-10" type="fn" n="10"/> But although they promoted personal harmony, the Memorandum Books may actually have contributed to the disastrous legacy of debt that overwhelmed Jefferson’s heirs after his death. The sense of control provided by their very exactness, combined with an optimistic nature that perpetually overestimated sources of income and underestimated expenditures, often prevented Jefferson from undertaking any serious financial planning until it was too late.</p>
+          <p rendition="#indent">Whatever Jefferson’s reasons for keeping them, the Memorandum Books were the first flowering of what can only be described as a passion for making daily records. His recordkeeping gradually spread to other fields—his garden, his farms, the weather—and he attempted to enlist friends and family members in the daily preservation campaign, but of course none of his recruits could match him in quotidian zeal. Other records supplement and enlarge upon the Memorandum Book entries: Jefferson’s separate accounts with individuals (most from before the Revolution are in the Fee Book and Misc. Accts.; the rest are scattered among his papers); the Ledger, 1767-1770, and Nicholas Lewis accounts bound with it (<ref type="repository" target="TK">ViU</ref>); the Fee Book, a record of Jefferson’s legal receipts and expenses (<ref type="repository" target="TK">CSmH</ref>); Martha Jefferson’s household accounts in Record of Cases Tried in Virginia Courts (<ref type="repository" target="TK">DLC</ref>); draft and final Accounts with the U.S. as Minister to France (<ref type="repository" target="TK">DLC</ref>); nailery accounts (<ref type="repository" target="TK">CLU</ref> and in Ledger, 1767-1770); accounts with the Bank of the United States (<ref type="repository" target="TK">CSmH</ref>); and Etienne Lemaire’s household accounts 1805-1809 (<ref type="repository" target="TK">CSmH</ref>). In addition, scattered throughout Jefferson’s papers are bills, vouchers, and accounts of merchants and tradesmen, particularly from the French and presidential periods.</p>
+          <p rendition="#indent">How complete a record of all Jefferson’s financial transactions is provided by his Memorandum Books, in conjunction with the above ancil<pb xml:id="TSJN-02-01-01-pb-0020" n="xx" facs="TSJN-02-01-01-pb-0020.jpg" FGEA:permission="yes"/>lary accounts? Although purchases made through others, such as his Washington and Richmond commission agents John Barnes and George Jefferson, often must be sought in his surviving separate accounts with those individuals, Jefferson’s own <hi rendition="#italic">cash</hi> receipts and expenditures are virtually all present. As for credit and delegated transactions outside the scope of the Memorandum Books, perhaps the most significant information gap occurs in the area of plantation administration. Monticello and Jefferson’s other farms were usually managed by stewards or overseers who kept separate account books, none of which has survived except for the years of Jefferson’s absence in France. Much of the information on the sale of his market crops can be retrieved from the letters of his commission agents, but the annual expenses of running the plantations are more elusive; purchases on credit for feeding and clothing his slaves were recorded in separate accounts with merchants, but these are very scarce. All we know of Jefferson’s pre-Revolutionary dealings with the Scottish firm of Kippen &amp; Co., to whom he sold his annual tobacco crop and from whom he purchased imported goods, is that his total indebtedness to them had by 1783 climbed to £1,400. His later plantation purchases from local merchants in Milton, Charlottesville, and Lynchburg appear only fitfully in the Memorandum Books and in a handful of surviving merchants’ accounts.</p>
+          <p rendition="#indent">It is essential for an understanding of many of the Memorandum Book entries to take a brief look at one aspect of the agricultural economy in Jefferson’s Virginia—the scarcity of money. The Virginia planter or farmer received his income but once a year on the sale of his cash crop, which usually occurred in the spring of the year following harvest. In the years when he did not receive a regular salary as a public servant, Jefferson was in the position of most of his neighbors in having to postpone payment for most of his purchases, if not to the flush months of April and May, then at least six months or even a year after the agreement. Even the annual sale of the crop did not necessarily produce cash. As the Duc de La Rochefoucauld-Liancourt wrote after a visit to Albemarle County in 1796, “Money is very scarce in this district, and bank-notes being unknown, trade is chiefly carried on by barter; the merchant, who receives the grain, returns its value in such commodities as the vendor stands in need of.”<ptr target="TSJN-02-01-FMfn-11" xml:id="ptr_TSJN-02-01-FMfn-11" type="fn" n="11"/> Although this was true of Jefferson’s dealings with Kippen &amp; Co. before the Revolution, he afterward generally sought the best market for his grain or tobacco, and the profits were received at Philadelphia or Richmond by his commission agents there. His necessary purchases from Albemarle County merchants were then made on credit, an arrangement that never failed <pb xml:id="TSJN-02-01-01-pb-0021" n="xxi" facs="TSJN-02-01-01-pb-0021.jpg" FGEA:permission="yes"/>to increase his load of debt. His funds in Richmond did, however, provide a way to avoid the local shortage of money. At tax collecting time, usually August and September, the local collectors suddenly became the repositories of most of the available cash in the county. Throughout the Memorandum Books are references to transactions by which Jefferson traded an order on his Richmond commission agent for hard money from the state and local collectors (the county sheriffs) or the federal collectors (at one time his own grandson). In his retirement years he acquired cash in the same manner by tapping a new breed of local merchant which did not buy up local produce and sold less on credit. The Memorandum Books are replete with the further evidence of the local scarcity of money, mentioning assumpsits, assignments, and other forms of obligation that were passed from hand to hand.</p>
+          <p rendition="#indent">Even with their omissions, Jefferson’s Memorandum Books provide an incomparable documentary record of the life of one man and of his world. By tracing the ebb and flow of pennies and pounds from 1767 to 1826, one can chart Jefferson’s comings and goings, his encounters with the famous and forgotten, the state of his health, the building and furnishing of his homes, the assembling of his library, and the stocking of his wine cellar. The trail of purchased provisions and commodities sheds light on almost every aspect of Jefferson’s world, from the state of technology and the arts in the new republic to the realities of plantation life and the southern agricultural economy. Underlying the whole is Jefferson’s unremitting and ultimately unsuccessful struggle to reconcile the need to maintain the style of life of an enlightened gentleman with a financial condition weakened by long public service and undermined by the credit economy of the southern plantation.</p>
+        </div2>
+      </div1>
+      <div1 type="apparatus">
+        <FGEA:mapData id="TSJN-02-01-01-0008">
+          <FGEA:Title>Editorial Method and Apparatus</FGEA:Title>
+          <FGEA:pageRange from="TSJN-02-01-01-pb-0021" to="TSJN-02-01-01-pb-0024"/>
+        </FGEA:mapData>
+        <head rendition="#center #all-caps">Editorial Method</head>
+        <div2 type="FM_sub-div">
+          <p rendition="#left"><hi rendition="#all-small-caps">In general</hi> the editors have been guided by the editorial principles established in Volume I of the first series of the Jefferson Papers. The particular aim has been an even greater literalness of presentation than that used for Jefferson’s correspondence. Jefferson’s Memorandum Books, with all of his errors, misspellings, and slips of the pen, have been reproduced as exactly as modern typography allows, with the following exceptions:</p>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <p rendition="#indent">Capital letters replace Jefferson’s customary use of lowercase letters at the beginnings of entries, sentences, and phrases (in the legal sections), and for honorifics.</p>
+          <p rendition="#indent">Margins have been regularized by following Jefferson’s customary but not exclusive practice of indenting the second and following lines of each entry.</p>
+          <p rendition="#indent">Marginal symbols and words remain where Jefferson placed them, but longer marginal phrases have been moved to the end of the appropriate entry (and so noted) or to a footnote.</p>
+          <p rendition="#indent">Jefferson’s original page numbers and his indexes have been omitted.</p>
+          <p rendition="#indent">His occasional square brackets have been converted to parentheses.</p>
+          <p rendition="#indent">Superscript letters have been lowered.</p>
+          <p rendition="#indent">Contraction signs have been omitted.</p>
+          <p rendition="#indent">Words with the thorn (ye, yt) have been expanded (the, that).</p>
+          <p rendition="#indent">Words underlined by Jefferson appear in italics.</p>
+          <p rendition="#indent">Superfluous periods have been removed and periods have been converted to commas when continuity seems to have been Jefferson’s intent.</p>
+          <p rendition="#indent">Periods after abbreviations have been used at all times, in accordance with Jefferson’s general but not exclusive practice.</p>
+          <p rendition="#indent">Some words scored out by Jefferson have been omitted as of no significance, such as “a,” “the,” and so on; most of the words or passages he deleted have been retained and placed in italic type inside angle brackets in their original position in the text. In the case of deleted numbers, which have usually been omitted, an explanatory note has been appended when Jefferson’s method or mathematics needs interpretation.</p>
+          <p rendition="#indent">Interlined words or phrases have been included without comment as part of the text.</p>
+          <space dim="vertical" quantity="1" unit="em"/>
+          <p rendition="#left"><hi rendition="#all-small-caps">A description</hi> of the manuscript, which consists of eleven separate volumes located in five different repositories, follows the Guide to Editorial Apparatus. The annotation, which is composed of both textual and explanatory footnotes, has been published with the text.</p>
+          <pb xml:id="TSJN-02-01-01-pb-0024" n="xxiv" facs="TSJN-02-01-01-pb-0024.jpg" FGEA:permission="yes"/>
+          <p rendition="#indent">The textual notes attempt to include significant differences between the text and other versions of certain portions of it; to comment on missing material; to explain Jefferson’s use of various scoring-out procedures; to present or comment on marginalia; to explain the placement of miscellaneous material; and to call attention to significant slips of the pen.</p>
+          <p rendition="#indent">In a work as comprehensive as the Memorandum Books, the scope for explanatory annotation was almost boundless. In order to limit enquiries that could have penetrated every corner of eighteenth- and early nineteenth-century history and culture, explanatory notes have been restricted by the following objectives: to provide certain minimum information essential to understanding the text; to comment only on questions raised directly by the text; to provide where possible concise identifications of persons, places, and things, with the illumination of aspects of Jefferson himself as the main focus; and to bring to the reader’s attention any Jefferson manuscripts that clarify or supplement the text.</p>
+          <p rendition="#indent">Although the length and depth of the annotation has been bound by these guiding principles, its breadth has been limited only by the manuscript itself. The editors have sought to trace every person or significant purchase or event mentioned by Jefferson; thus, editorial silence in regard to a Philadelphia merchant or a play seen at Williamsburg may be presumed to mean that no useful information was found. Specialists and local historians will doubtless be able to fill in the gaps that are the inevitable result of a search of such scope, but it is hoped that the annotation will prove an effective tool for continuing research into many aspects of Jefferson and his world.</p>
+          <p rendition="#indent">There are several further types of editorial silence. In the course of checking all Jefferson’s mathematical computations, it was decided to let pass unnoticed the rather frequent errors of a few pennies or less; more significant errors or those that shed light on Jefferson’s methods of computation are discussed in footnotes. The absence of references for the identification of a person indicates, in the case of a person of note, that the information was derived from one of the standard American, British, or French biographical dictionaries or from Lyon G. Tyler’s <title><hi rendition="#italic">Encyclopedia of Virginia Biography</hi></title>; in the case of an obscure name (primarily Jefferson’s workmen), the information was derived from internal evidence. Cross-referencing of footnotes has been limited to those which might prove difficult to recover from the Index. Unannotated abbreviations can be found in expanded form in the Guide to Editorial Apparatus.</p>
+          <p rendition="#indent">Cognizant of the impossibility of complete success in editing a manuscript of such size and complexity, the editors have made every effort to present a faithful and accurate transcription.</p>
+        </div2>
+      </div1>
+
+
+      <div1 xml:id="X175941" type="year">
+        <FGEA:mapData id="TSJN-02-01-02-0010">
+          <FGEA:Title>1776</FGEA:Title>
+          <FGEA:Author>Jefferson, Thomas</FGEA:Author>
+          <FGEA:mapDates>
+            <FGEA:searchRange from="1776-01-01" to="1776-12-31"/>
+            <FGEA:yearRange from="1776" to="1776"/>
+          </FGEA:mapDates>
+          <FGEA:pageRange from="TSJN-02-01-02-pb-0412" to="TSJN-02-01-02-pb-0437"/>
+        </FGEA:mapData>
+        <div2 type="cashyear" xml:id="_175941d1e141160">
+          <head rendition="#all-caps">1776.</head>
+          <table>
+GOODSTUFF
+            <row n="1776-06-20" role="day" xml:id="_175941d1e144273" rend="vertical-align:top;">
+              <cell rend="width:6.25%;text-align:left;">June</cell>
+              <cell role="day" rend="width:6.25%;text-align:right;"> <date>20.</date> </cell>
+              <cell rend="width:6.25%;"/>
+              <cell rend="padding-left:1em;text-indent:-1em;">Pd. dinner at Smith’s 7/.</cell>
+            </row>
+            <row n="1776-06-20" role="sday" xml:id="_175941d1e144290" rend="vertical-align:top;">
+              <cell cols="3" rend="width:18.75%;"/>
+              <cell rend="padding-left:1em;text-indent:-1em;">Pd. Hugh Walker for waggonage of sundries last winter to head of Elk 27/6.</cell>
+            </row>
+            <row n="1776-06-20" role="sday" xml:id="_175941d1e144298" rend="vertical-align:top;">
+              <cell cols="3" rend="width:18.75%;"/>
+              <cell rend="padding-left:1em;text-indent:-1em;">Pd. Aitkin for lining a map 5/.</cell>
+            </row>
+
+          </table>
+        </div2>
+
+      </div1>
+    </body>
+  </text>
+</TEI>
+<!--Saved from pipeline on 2016-01-28T12:31:26.069-05:00-->
